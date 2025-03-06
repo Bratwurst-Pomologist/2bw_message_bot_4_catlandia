@@ -1,9 +1,9 @@
 core.register_chatcommand("bws"' {
   description = "run command as 2bw.",
   privs = {server=true},
-  parsms = "[params]",
+  params = "[params]",
   func = function(name, param)
-    local cmd, par = param:match("^(.*)$")
+    local par = param:match("^(.*)$")
     local nick = "2BW_bot:"
     local cmd = "me"
     if not par then
