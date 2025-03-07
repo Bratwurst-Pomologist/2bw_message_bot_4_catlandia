@@ -18,3 +18,5 @@ core.register_chatcommand("bws", {
     end
   end
 })
+
+--[[cmd /lua moo =  minetest.registered_chatcommands["bws"].func("player_name", "ouIV") minetest.chat_send_player("player_name",  moo)]]
